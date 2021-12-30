@@ -68,7 +68,7 @@ ul {
     height: auto;
 }
 
-.hero-header button {
+.hero-header button, .sign-banner button{
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
@@ -146,10 +146,34 @@ ul {
 
 .sign-banner {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     background-color: #3882F6;
     padding: 50px;
     margin: 100px 750px;
     border-radius: 12px;
+
+    color: #E5E7EB;
 }
+
+.sign-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign-banner button {
+    margin: 0;
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 16px;
+    padding: 30px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
