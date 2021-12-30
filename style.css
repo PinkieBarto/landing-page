@@ -142,3 +142,12 @@ ul {
     font-size: 28px;
 }
 
+.sign-banner {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 100px 750px;
+    border-radius: 12px;
+}
