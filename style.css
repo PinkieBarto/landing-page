@@ -11,23 +11,25 @@ body{
     
 }
 
-.header, .hero-header{
+.header{
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
     padding-bottom: 70px;
     padding-top: 10px;
+}
 
+.top-header, .hero-header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    max-width: 1470px;
+    margin: 0 auto;
 }
 
 .hero-header {
-    justify-content: center;
-    gap: 420px;
     align-items: flex-start;
-    padding-bottom: 120px;
+    padding: 60px 0px;
 }
 
 
@@ -62,7 +64,7 @@ ul {
 }
 
 .hero-header img {
-    width: 600px;
+    width: 500px;
     height: auto;
 }
 
