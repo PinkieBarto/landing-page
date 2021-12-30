@@ -16,7 +16,8 @@ body{
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 20px 0px;
+    padding-bottom: 70px;
+    padding-top: 10px;
 
     display: flex;
     justify-content: space-around;
@@ -25,7 +26,9 @@ body{
 
 .hero-header {
     justify-content: center;
-    gap: 550px;
+    gap: 420px;
+    align-items: flex-start;
+    padding-bottom: 120px;
 }
 
 
@@ -44,7 +47,7 @@ ul {
 }
 
 .intro {
-    max-width: 460px;
+    max-width: 500px;
 }
 
 .intro h1 {
@@ -55,12 +58,12 @@ ul {
 
 .intro p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7ebc0;
     margin: 5px 0px;
 }
 
 .hero-header img {
-    width: 500px;
+    width: 600px;
     height: auto;
 }
 
@@ -75,3 +78,43 @@ ul {
     padding: 7px 30px;
 
 }
+
+.information-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px 0;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.information-container img {
+    width: 300px;
+    height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.information-container p {
+    max-width: 290px;
+    text-align: center;
+    color: #212327c5;
+    margin: 10px 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
