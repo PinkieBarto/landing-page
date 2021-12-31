@@ -149,9 +149,9 @@ ul {
     justify-content: space-around;
     align-content: center;
     background-color: #3882F6;
-    max-width: 1170px;
+    width: 900px;
     padding: 50px;
-    margin: 100px 750px;
+    margin: 100px auto;
     border-radius: 12px;
 
     color: #E5E7EB;
